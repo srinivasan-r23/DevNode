@@ -1,0 +1,27 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinivasan-r23/DevNode.git"
+  },
+  "keywords": [
+    "DevTinder",
+    "NodeJs",
+    "Javascript"
+  ],
+  "author": "Srini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srinivasan-r23/DevNode/issues"
+  },
+  "homepage": "https://github.com/srinivasan-r23/DevNode#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
