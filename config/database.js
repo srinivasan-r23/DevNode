@@ -1,11 +1,9 @@
 const mongoose = require('mongoose');
 
-const connectDB = async() => {
-    await mongoose.connect("mongodb+srv://srini23:srini23@devtinder.u15vr.mongodb.net/");
-}
+main().then(() => {
+        console.log('>>> DB established');
+    }).catch(err => console.log(err));
 
-connectDB().then(() => {
-    console.log('>>> DB established');
-}).catch(err => {
-    console.log('>>> err', err)
-})
+async function main() {
+  await mongoose.connect('mongodb+srv://srinismart2:GQRZ1iWxENulb78t@cluster0.6b8qg.mongodb.net/');
+}
